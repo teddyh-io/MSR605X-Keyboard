@@ -1,6 +1,6 @@
 # MSR605X-Keyboard
 
-Turn your MSR605x magnetic stripe reader into a keyboard wedge. Swipe a card and the track data gets typed directly into whatever input field is focused — no copy/paste needed.
+Turn your MSR605x magnetic stripe writer into a simple input device. Swipe a card and the track data gets typed directly into whatever input field is focused without needing to deal with the clumsy MSR605x interface. Helpful for when inputting a lot of cards into an excel spreadsheet or a GC reseller website.
 
 ## Features
 
@@ -77,3 +77,17 @@ magswipe/
 ## License
 
 MIT
+
+## Thanks To
+
+Thanks to all these people who did the hard work of reverse-engineering this device.
+
+- [rubicae/msr605x](https://github.com/rubicae/msr605x) — HID packet framing docs
+- [wesley27/magworks](https://github.com/wesley27/magworks) — PyUSB CLI tool for MSR devices
+- [egginabucket/openmsr](https://github.com/egginabucket/openmsr) — Cross-platform Go GUI
+- [manwinder123/MSR605-Card-Reader-Writer-Eraser-with-GUI](https://github.com/manwinder123/MSR605-Card-Reader-Writer-Eraser-with-GUI) — Python GUI
+- [eucalyp/MSR605](https://github.com/eucalyp/MSR605) — Python interface
+- [Protryon/misiri_driver](https://github.com/Protryon/misiri_driver) — Multi-platform driver
+- [InteliSecureLabs/MSR605](https://github.com/InteliSecureLabs/MSR605) — C/C++ library
+- [bentbot/MSR605-GUI](https://github.com/bentbot/MSR605-GUI) — Python GUI
+- [raphaelm/msrtool](https://github.com/raphaelm/msrtool) — Linux CLI tool
